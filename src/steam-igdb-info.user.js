@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Steam IGDB game info
+// @name         Steam: IGDB game info
 // @description  Add time to beat info and game ratings form IGDB to Steam store pages.
 // @author       Xeloses
 // @version      1.0
@@ -71,9 +71,9 @@
         let $frm = $J('form#igdb_api_key_form');
 
         // add <form> submit event listener:
-        $frm.on('submit',(event)=>{
-            event.preventDefault();
-            event.stopPropagation();
+        $frm.on('submit',(e)=>{
+            e.preventDefault();
+            e.stopPropagation();
             // get API key value from <input> element:
             IGDB_API_KEY = $frm.find('input#igdb_api_key').val().trim();
             // check API key:
