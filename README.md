@@ -17,5 +17,5 @@ Key can be registered fo free here: https://api.igdb.com
 3) Copy this link: ``https://github.com/Xeloses/steam-igdb-info/raw/master/steam-igdb-info.user.js`` and paste it into "Install from URL" field.
 4) Click "Install" button.
 5) Open any Steam game page.
-6) Locate a new info block in the right panel (to the right of a "Buy"/"Play" button, under a "View your queue" button).
+6) Locate a new info block in the right panel *(to the right of a "Buy"/"Play" button, under a "View your queue" button)*.
 7) Paste your IGDB API key into the text input field and click "Save" button.
