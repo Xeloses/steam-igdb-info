@@ -162,7 +162,7 @@
                 }
             },
             onerror:function(response){
-                $log(APP_NAME + 'Error: request error.',LOG_ERROR);
+                $log('Error: request error.',LOG_ERROR);
             },
         });
     }
