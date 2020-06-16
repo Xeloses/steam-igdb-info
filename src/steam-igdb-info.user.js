@@ -30,7 +30,7 @@
     let GAME_NAME = null;
 
     // Enable/disable status & error output to console:
-    let ENABLE_CONSOLE_OUTPUT = true;
+    const ENABLE_CONSOLE_OUTPUT = true;
 
     // Console message types:
     const LOG_INFO = 1;
