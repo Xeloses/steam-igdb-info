@@ -7,6 +7,7 @@ Add game ratings and time to beat from IGDB to steam store pages.
 
 ## IGDB API:
 To get game info from IGDB you need **API key**.
+
 Key can be registered fo free here: https://api.igdb.com
 
 ## Installation:
