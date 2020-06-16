@@ -24,7 +24,7 @@
     const IGDB_API_URL = 'https://api-v3.igdb.com/games';
 
     // IGDB API key:
-    let IGDB_API_KEY = null; // 23b5c8cdfbe7de595c336944c06904a8
+    let IGDB_API_KEY = null;
 
     // Game name:
     let GAME_NAME = null;
